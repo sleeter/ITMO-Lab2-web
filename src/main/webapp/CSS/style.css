@@ -1,0 +1,232 @@
+* {
+    font-family: Calibri, sans-serif;
+}
+body {
+    background-color: black;
+}
+.header {
+    height: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    font-family: cursive, sans-serif;
+}
+
+.header > a, img {
+    width: 75px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 50%;
+}
+
+img:hover {
+    transition: 0.5s;
+    border-radius: 40%;
+    border: 1px solid white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 2px white;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    margin: 1.7% 1% auto;
+    flex-direction: column;
+}
+a:hover {
+    /*color: lime;*/
+    transition: 0.5s;
+    text-shadow: 0 0 20px white;
+}
+
+.header span, a{
+    margin-top: 1%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-family: cursive, sans-serif;
+}
+.navigation {
+    height: 70px;
+    display: flex;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+.navigation > p {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+main {
+    margin: 10px auto;
+    background-color: black;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+#canvas-form-wrapper{
+    font-family: "fantasy";
+    font-size: 16px;
+    background: black;
+    /*width: 80vw;*/
+    /*margin: 10px auto;*/
+    text-align: center;
+    border: solid;
+    /*min-height: 80vh;*/
+}
+
+#canvas-wrapper{
+    /*margin: 30px 370px;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding: 20px 20px;*/
+    /*padding-left: 20px;*/
+    float: left;
+    height: 600px;
+    width: 45%;
+}
+#form_error {
+    color: white;
+}
+#form-wrapper{
+    /*margin: 0 5%;*/
+    float: right;
+    height: 600px;
+    width: 55%;
+    display: table;
+    text-align: center;
+}
+
+.wrappers >label {
+    color: white;
+}
+#r-wrapper{
+    max-width: 50%;
+}
+input {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+input::placeholder{
+    color: black;
+}
+#input-wrapper {
+    padding: 40px;
+    border-radius: 10%;
+    display: table;
+    text-align: center;
+    border: 3px solid white;
+    margin: 1px auto auto;
+    background-color: black;
+}
+.wrappers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.wrappers label{
+    margin-right: 40px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+#rInputs button{
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+    background: rgba(82,97,100,0.64);
+    color: white;
+    cursor: pointer;
+}
+
+input:focus {
+    box-shadow: 0 0 10px black;
+}
+
+#clean{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+#clean:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    margin-left: 5px;
+}
+#submit:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+#submit-wrapper {
+    width: 50%;
+}
+#history-wrapper {
+    width: 50%;
+}
+#submit-history {
+    display: flex;
+    justify-content: center;
+}
+.table-container {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.table-check{
+    text-align: center;
+    margin: 30px auto;
+    border: 3px solid white;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    width: 80%;
+}
+.table-header > th {
+    color: white;
+}
+#suda {
+    color: white;
+}
+td{
+    border: #32343d 1.5px solid;
+}
+.footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #1f1f1f;
+    color: grey;
+}
